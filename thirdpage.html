@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>third page</title>
+	<link rel="stylesheet" type="text/css" href="style.css
+	">
+</head>
+<body>
+	<div id="firstPage">
+		<h2>Upload your documents</h2>
+		<form>
+		<label for="recentphoto" class="makeMandatory">Recent Passport Size Photo</label><br><br>	
+		<input type="file" name="myPhoto" id="myPhoto" class="boxSizeFull"
+		accept="image/*"  required>
+		<br>
+
+		<label for="HSCMarkSheet" class="makeMandatory">HSC Mark Sheet</label><br><br>
+		<input type="file" name="HSCMarksheet" id="HSCMarksheet" class="boxSizeFull"
+		accept="pdf/*" required><br>
+
+		<label for="sscmarksheet" class="makeMandatory">SSC Mark Sheet</label><br><br>
+		<input type="file" name="SSCMark" id="SSCMark" class="boxSizeFull"accept="pdf/*" required><br>
+
+		<label for="btechmarksheet" class="makeMandatory">B-Tech Mark Sheet</label><br><br>
+		<input type="file" name="BtechMark" id="BPUTMark" class="boxSizeFull" accept="pdf/*"  required>
+		<br>
+		<center><button id="submitBtn" onclick="subBtn()" formvalidate>Submit</button></center>
+
+		</form>
+	</div>
+
+	<script type="text/javascript" src="main.js"></script>
+	
+</body>
+</html>

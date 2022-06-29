@@ -1,0 +1,46 @@
+#firstPage{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: lightblue;
+	padding: 20px;
+}
+.makeMandatory{
+	font-size: 20px;
+}
+
+.notMandatory{
+	font-size: 20px;
+}
+
+.makeMandatory:after{
+	content: " *";
+	color: red; 
+}
+
+.boxSize{
+	height: 30px;
+	width: 300px;
+	padding-left: 10px;
+}
+.boxSize1{
+	height: 36px;
+	width: 325px;
+	padding-left: 10px;
+}
+
+.marLft{
+	margin-left: 10px;
+}
+
+.boxSizeFull{
+	height: 30px;
+	width: 645px;
+}
+
+#btn, #btn1, #submitBtn{
+	 font-size: 20px;
+	 cursor: pointer;
+}
+

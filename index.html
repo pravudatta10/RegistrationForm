@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="firstPage">
+		<h1>Registration Page</h1>
+		<form>
+			<label for="firstname" class="makeMandatory">Name</label><br>
+			<input type="text" name="firstname" id="firstname" class="boxSize" placeholder="first name" required>
+			<input type="text" name="lastname" id="lastname" class="boxSize marLft" placeholder="last name" required>
+
+			<br><br>
+			<label for="myDate" class="makeMandatory">Date of Birth</label><br>
+			<input type="date" name="myDate" id="myDate" class="boxSizeFull" placeholder="date of birth" required>
+
+			<br><br>
+			<label for="myMail" class="makeMandatory">Email</label><br>
+			<input type="mail" name="myMail" id="myMail" class="boxSizeFull" placeholder="enter your email" required>
+
+			<br><br>
+			<label for="fname" class="makeMandatory">Father Name</label><br>
+			<input type="text" name="fname" id="fname" class="boxSize" placeholder="first name" required>
+			<input type="text" name="fname" id="fname" class="boxSize marLft" placeholder="last name" required>
+
+			<br><br>
+			<label for="fname" class="makeMandatory">Mother Name</label><br>
+			<input type="text" name="mname" id="mname" class="boxSize" placeholder="first name" required>
+			<input type="text" name="mname" id="mname" class="boxSize marLft" placeholder="last name" required>
+
+			<br><br>
+			<label for="Gender" class="makeMandatory">Gender</label><br>
+			<input type="radio" name="Gender" > Male <br> 
+			<input type="radio" name="Gender" > Female
+
+			<br><br>
+			<label for="nationality" class="makeMandatory">Nationality</label><br>
+			<input type="text" name="nationality" id="nationality" class="boxSizeFull" placeholder=" Nationality" required>
+
+			<br><br>
+			<label for="home" class="makeMandatory">Home Address</label><br>
+			<input type="text" name="home" id="home" class="boxSizeFull" placeholder=" Street Address" required>
+
+			<br> <br>			 
+			<input type="text" name="fname" id="fname" class="boxSize" placeholder="City"/>
+			 <label for="cars"></label>
+			  <select name="cars" id="cars"class="boxSize1 marLft" >
+			    <option value=""  disabled selected>Country</option>
+			    <option value="Afghanistan">Afghanistan</option>
+				<option value="Albania">Albania</option>
+				<option value="Algeria">Algeria</option>
+				<option value="American Samoa">American Samoa</option>
+				<option value="Andorra">Andorra</option>
+				<option value="Honduras">Honduras</option>
+				<option value="Hong Kong">Hong Kong</option>
+				<option value="Hungary">Hungary</option>
+				<option value="Iceland">Iceland</option>
+				<option value="India">India</option>
+				<option value="Indonesia">Indonesia</option>
+				<option value="Iran">Iran (Islamic Republic of)</option>
+				<option value="Iraq">Iraq</option>
+
+			  </select>
+
+			<br><br>
+			<label for="phone" class="notMandatory">Telephone - Home</label><br>
+			<input type="tel" name="phone" id="phone" class="boxSizeFull" placeholder="### ### ####">
+
+			<br><br>
+			<label for="myphone" class="makeMandatory">Telephone - Mobile</label><br>
+			<input type="tel" name="myphone" id="myphone" class="boxSizeFull" placeholder="### ### ####">
+
+			<br><br>
+			<center><button id="btn" onclick="goToSecond()" formvalidate>Next</button></center>
+		</form>
+	</div>
+
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
